@@ -34,6 +34,12 @@
     font-weight: 500;
     font-size: 18px;
 }
+.nav-bar ul li:hover{
+    background-color: #f86218;
+    color: rgb(71, 70, 70);
+    transition-duration: 1s;
+    border-radius: 6px;
+}
 /*----------------
     header-styles
 -------------------- */
@@ -68,6 +74,11 @@
     color: #ffff;
     font-weight: 600;
     font-size: 18px;
+}
+.banner-btn:hover{
+    background-color: #ff5500;
+    color: rgb(71, 70, 70);
+    transition-duration: 0.75s;
 }
 .banner-photo img{
     width: 1440px;
@@ -127,6 +138,11 @@ span{
     font-weight: 600;
     font-size: 18px;
 }
+.section-1-btn:hover{
+    background-color: #ff5500;
+    color: rgb(71, 70, 70);
+    transition-duration: 0.75s;
+}
 /*----------------------
     Features Section-2 
 ------------------------*/
@@ -173,6 +189,11 @@ span{
     color: #ffff;
     font-weight: 700;
     font-size: 45px;
+}
+.btn-year-10:hover{
+    background-color: #ff5500;
+    color: rgb(71, 70, 70);
+    transition-duration: 0.75s;
 }
 .main-part{
     display: flex;
@@ -237,7 +258,11 @@ span{
  .fact{
     border: 1px solid #FF900E;
     border-radius: 5px;
-
+ }
+ .fact:hover{
+    background-color: #fd7734;
+    color: rgb(124, 122, 122);
+    transition-duration: 0.75s;
  }
  .photo-align{
     width: 45.22px;
@@ -296,17 +321,29 @@ span{
     margin-left: 240px;
     margin-right: 240px;
     margin-bottom: 60px;
-    padding-bottom: 142px;
+    padding-top: 65px;
+    padding-bottom: 265px;
   }
   .footer-title{
     text-align: center;
     font-weight: 400;
     font-size: 20px;
-    padding-top: 34px;
+    padding-top: 16px;
   }
-  .subscribe{
-    text-align: center;
+  .email-subscribe-box{
+    border: 2px solid #f5c58b;
     margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 515px;
+    margin-right: 515px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .subscribe-title{
+    text-align: center;
+    margin-top: 6px;
+    color: #FF900E;
+    margin-left: 5px;
   }
   .email-box-flex{
     display: flex;
@@ -315,8 +352,32 @@ span{
     align-items: center;
   }
   .email-box{
-    margin-top: 5px;
+    width: 220px;
+    height: 44px;
+    border-radius: 5px;
+    background: #f3b56e;
+    padding-left: 30px;
+    color: #4e4e4e;
+    margin-top: 10px;
+    margin-left: 7px;
   }
+  .subscribe-btn{
+    border: none;
+    width: 100px;
+    height: 34px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFF4E7;
+    font-size: 15px;
+    margin-left: 5px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+}
+.subscribe-btn:hover{
+    background-color: #ff5500;
+    color: rgb(71, 70, 70);
+    transition-duration: 0.75s;
+}
   .footer-icon{
     display: flex;
     gap: 20px;
@@ -326,12 +387,32 @@ span{
   .facebook a img{
     width: 30px
   }
+  .facebook:hover{
+    background-color: #92bdee;
+    color: rgb(71, 70, 70);
+    transition-duration: 0.75s;
+  }
   .linkedin a img{
      width: 30px;
+  }
+  .linkedin:hover{
+    background-color: #92bdee;
+    color: rgb(71, 70, 70);
+    transition-duration: 0.75s;
   }
   .twitter a img{
     width: 30px;
   }
+.twitter:hover{
+    background-color: #92bdee;
+    color: rgb(71, 70, 70);
+    transition-duration: 0.75s;
+}
   .whatsapp a img{
     width: 30px;
+  }
+  .whatsapp:hover{
+    background-color: #75ec7f;
+    color: rgb(71, 70, 70);
+    transition-duration: 0.75s;
   }
