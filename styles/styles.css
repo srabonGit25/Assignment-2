@@ -437,6 +437,9 @@ span{
 ----------------------------*/
 /* Small Devices */
 @media only screen and (max-width: 576px) {
+    /*----------------------
+       Head And Nav Section
+    -------------------------*/
     .nav-bar{
         flex-direction: column;
     }
@@ -451,6 +454,9 @@ span{
         margin-left: 0px;
         text-align: center;
     }
+    /*--------------------
+       Banner Section
+    -----------------------*/
     .banner-title{
         font-size: 37px;
     }
@@ -470,6 +476,9 @@ span{
         margin-top: 30px;
         margin-bottom: 35px;
     }
+    /*----------------------- 
+        Team Section - 1
+    ------------------------*/
     .section-1{
         flex-direction: column;
         justify-content: center;
@@ -501,6 +510,9 @@ span{
         width: 154px;
         height: 135px;
     }
+    /*-----------------------------
+         Features Section - 2
+    ------------------------------*/
     .section-2{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -541,6 +553,9 @@ span{
     .btn-year-10 a{
         font-size: 14px;
     }
+    /*-------------------------
+        Some Fact Section - 3
+    ------------------------------*/
     .section-3-head-title{
         margin-top: 75px;
         margin-left: 20px;
@@ -556,6 +571,9 @@ span{
         gap: 35px;
         margin-bottom: 70px;
     }
+    /*-------------------------
+         Sponsor Section - 4
+    ----------------------------*/
     .section-4-head-title{
         margin-left: 9px;
     }
@@ -568,6 +586,9 @@ span{
         align-items: center;
         gap: 75px;
     }
+    /*------------------
+       Footer Section
+    -------------------*/
     .email-box{
         text-align: center;
         padding-left: 3px;
@@ -590,4 +611,140 @@ span{
     margin-right: 1078px;
     margin-left: 12px;
    }
+}
+/*-----------------------
+      Medium Screen
+-------------------------*/
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    /*-------------------------
+          Head And Nav
+     -------------------------*/
+    .nav-head-title{
+        margin-left: 50px;
+    }
+    .nav-bar ul{
+        gap: 30px;
+        margin-right: 50px;
+    }
+    .banner-description{
+        margin-left: 127px;
+        margin-right: 127px;
+    }
+    .banner-photo img{
+        width: 590px;
+        height: 383px;
+        margin-left: 89px;
+        margin-right: 50px;
+    }
+    /*--------------------
+        Team Section-1
+    --------------------*/
+    .section-1{
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+    .section-1-head-title, .section-1-description{
+        text-align: center;
+    }
+    .section-1-btn{
+        margin-left: 175px;
+    }
+    .team{
+        margin-left: 0px;
+        margin-bottom: 35px;
+     }
+     /* -----------------------------
+            Features Section - 2
+    ---------------------------------- */
+     .section-2{
+        flex-direction: column;
+        gap: 50px;
+     }
+     .vr-line-flex{
+        gap: 10px;
+        margin-left: 20px;
+     }
+     .section-2-head-title{
+        text-align: left;
+        margin-right: 265px;
+     }
+     .section-2-description{
+        margin-left: 25px;
+     }
+     .architect-photo{
+        margin-bottom: 100px;
+     }
+     .architect-photo img{
+        width: 520px;
+        height: 645px;
+        margin-left: 122px;
+        margin-top: 129px;
+     }
+     .btn-year-10{
+        position: absolute;
+        width: 155px;
+        height: 70px;
+        margin-left: 15px;
+        transform: translate(-76px, 445px);
+    }
+    .btn-year-10 a{
+        font-size: 14px;
+    }
+     .main-part{
+        flex-direction: column;
+        margin-left: 20px;
+     }
+     /*----------------------------
+         Some Fact Section - 3
+     ----------------------------*/
+     .section-head{
+        text-align: center;
+     }
+     .section-3-head-title{
+        margin-top: 100px;
+        margin-left: 20px;
+     }
+     .section-3-description{
+        margin-left: 20px;
+     }
+     .main-fact{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        justify-items: center;
+        margin-left: 90px;
+        margin-right: 90px;
+     }
+     .fact{
+        align-items: center;
+     }
+     /*-----------------------
+        Sponsor Section - 4
+     -------------------------*/
+     .sponsor-group{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 70px;
+        justify-items: center;
+     }
+     /*---------------------
+        Footer Section
+     -----------------------*/
+     .footer-background{
+        padding-top: 57px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+     }
+     .email-subscribe-box{
+        margin-left: 189px;
+        margin-right: 839px;
+        padding: 20px 13px;
+     }
+     .footer-icon{
+        margin-right: 622px;
+     }
+    .footer-title{
+        margin-right: 622px;
+    }
 }
